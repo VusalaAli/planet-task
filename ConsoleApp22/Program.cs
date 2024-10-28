@@ -1,4 +1,5 @@
 ﻿using Core.Data;
+using Core.Helpers.Enums;
 using Core.Models;
 using System.Security.Cryptography.X509Certificates;
 using System.Text;
@@ -13,6 +14,8 @@ namespace ConsoleApp22
             string choice;
             string name;
             double area;
+            string anthem;
+            Region region;
             do
             {
                 Console.WriteLine("1. Planet yarat 2.Planetleri gor 3.Country Session 0.Exit");
@@ -61,7 +64,34 @@ namespace ConsoleApp22
                                         s2 = double.TryParse(Console.ReadLine(), out area);
 
                                     } while (!s2);
+                                    Console.WriteLine("Himn  daxil edin:");
+                                    anthem = Console.ReadLine();
+                                reset:
+                                    Console.WriteLine("Region secin");
+                                    Console.WriteLine("1.Avropa 2.Asiya 3.SAmerika 4.CAmerika 5.Avstraliya");
+                                    choice = Console.ReadLine();
+                                    switch(choice)
+                                    {
+                                        case "1":
+                                            region  = Region.Avropa;
+                                            break;
+                                        case "2":
+                                            region = Region.Asiya;
+                                            break;
+                                        case "3":
+                                            region = Region.SAmerika;
+                                            break;
+                                        case "4":
+                                            region = Region.Asiya;
+                                            break;
+                                        case "5":
+                                            region = Region.Avstraliya;
+                                            break;
+                                        default:
+                                            goto reset;
 
+                                    }
+                                    Country country = new Country(name, area, anthem, region);
                                     break;
                                 case "2":
 
@@ -78,12 +108,13 @@ namespace ConsoleApp22
 
 
                             }
-                            break;
+                            
 
 
 
 
                         } while (!d);
+                        break;
 
 
 
@@ -98,10 +129,10 @@ namespace ConsoleApp22
 
 
 
-                    case "0":
+                   case "0":
                         f = true;
                         break;
-                    default:
+                   default:
                         Console.WriteLine("Duzgun secim edin");
                         break;
                 }

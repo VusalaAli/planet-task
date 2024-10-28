@@ -5,6 +5,26 @@
     {
       "AbsoluteMoniker": "D:0:0:{E9CA51BA-6B15-46FC-AB00-02ED0EB9CBA4}|ConsoleApp22\\ConsoleApp22.csproj|c:\\users\\ll novbe\\source\\repos\\consoleapp22\\consoleapp22\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E9CA51BA-6B15-46FC-AB00-02ED0EB9CBA4}|ConsoleApp22\\ConsoleApp22.csproj|solutionrelative:consoleapp22\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6659596B-98BA-4039-84C7-2B23C3D88997}|Core\\Core.csproj|c:\\users\\ll novbe\\source\\repos\\consoleapp22\\core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{6659596B-98BA-4039-84C7-2B23C3D88997}|Core\\Core.csproj|solutionrelative:core\\core.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6659596B-98BA-4039-84C7-2B23C3D88997}|Core\\Core.csproj|c:\\users\\ll novbe\\source\\repos\\consoleapp22\\core\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6659596B-98BA-4039-84C7-2B23C3D88997}|Core\\Core.csproj|solutionrelative:core\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6659596B-98BA-4039-84C7-2B23C3D88997}|Core\\Core.csproj|c:\\users\\ll novbe\\source\\repos\\consoleapp22\\core\\models\\planet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6659596B-98BA-4039-84C7-2B23C3D88997}|Core\\Core.csproj|solutionrelative:core\\models\\planet.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6659596B-98BA-4039-84C7-2B23C3D88997}|Core\\Core.csproj|c:\\users\\ll novbe\\source\\repos\\consoleapp22\\core\\models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6659596B-98BA-4039-84C7-2B23C3D88997}|Core\\Core.csproj|solutionrelative:core\\models\\country.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6659596B-98BA-4039-84C7-2B23C3D88997}|Core\\Core.csproj|c:\\users\\ll novbe\\source\\repos\\consoleapp22\\core\\helpers\\enums\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6659596B-98BA-4039-84C7-2B23C3D88997}|Core\\Core.csproj|solutionrelative:core\\helpers\\enums\\region.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,17 +34,82 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 5,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Region.cs",
+              "DocumentMoniker": "C:\\Users\\ll novbe\\source\\repos\\ConsoleApp22\\Core\\Helpers\\Enums\\Region.cs",
+              "RelativeDocumentMoniker": "Core\\Helpers\\Enums\\Region.cs",
+              "ToolTip": "C:\\Users\\ll novbe\\source\\repos\\ConsoleApp22\\Core\\Helpers\\Enums\\Region.cs",
+              "RelativeToolTip": "Core\\Helpers\\Enums\\Region.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T11:09:29.626Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Planet.cs",
+              "DocumentMoniker": "C:\\Users\\ll novbe\\source\\repos\\ConsoleApp22\\Core\\Models\\Planet.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Planet.cs",
+              "ToolTip": "C:\\Users\\ll novbe\\source\\repos\\ConsoleApp22\\Core\\Models\\Planet.cs",
+              "RelativeToolTip": "Core\\Models\\Planet.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T11:02:44.053Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Country.cs",
+              "DocumentMoniker": "C:\\Users\\ll novbe\\source\\repos\\ConsoleApp22\\Core\\Models\\Country.cs",
+              "RelativeDocumentMoniker": "Core\\Models\\Country.cs",
+              "ToolTip": "C:\\Users\\ll novbe\\source\\repos\\ConsoleApp22\\Core\\Models\\Country.cs",
+              "RelativeToolTip": "Core\\Models\\Country.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAABwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T11:02:22.973Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AppDbContext.cs",
+              "DocumentMoniker": "C:\\Users\\ll novbe\\source\\repos\\ConsoleApp22\\Core\\Data\\AppDbContext.cs",
+              "RelativeDocumentMoniker": "Core\\Data\\AppDbContext.cs",
+              "ToolTip": "C:\\Users\\ll novbe\\source\\repos\\ConsoleApp22\\Core\\Data\\AppDbContext.cs",
+              "RelativeToolTip": "Core\\Data\\AppDbContext.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEQAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-28T11:01:04.689Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Core.csproj",
+              "DocumentMoniker": "C:\\Users\\ll novbe\\source\\repos\\ConsoleApp22\\Core\\Core.csproj",
+              "RelativeDocumentMoniker": "Core\\Core.csproj",
+              "ToolTip": "C:\\Users\\ll novbe\\source\\repos\\ConsoleApp22\\Core\\Core.csproj",
+              "RelativeToolTip": "Core\\Core.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-10-28T11:00:20.241Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\ll novbe\\source\\repos\\ConsoleApp22\\ConsoleApp22\\Program.cs",
               "RelativeDocumentMoniker": "ConsoleApp22\\Program.cs",
-              "ToolTip": "C:\\Users\\ll novbe\\source\\repos\\ConsoleApp22\\ConsoleApp22\\Program.cs*",
-              "RelativeToolTip": "ConsoleApp22\\Program.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAANAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ll novbe\\source\\repos\\ConsoleApp22\\ConsoleApp22\\Program.cs",
+              "RelativeToolTip": "ConsoleApp22\\Program.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAAADAAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-28T10:40:30.017Z",
               "EditorCaption": ""

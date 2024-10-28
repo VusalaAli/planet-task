@@ -20,9 +20,14 @@ namespace Core.Models
             Name = name;
             Area = area;
         }
-        public void ShowInfo()
+        public string ShowInfo()
         {
-            Console.WriteLine($"Planet Name:{Name},Planet Area:{Area}");
+           return $"Planet Name:{Name},Planet Area:{Area}";
+        }
+
+        public override string ToString()
+        {
+            return ShowInfo() ; 
         }
     }
 }
